@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>BOOTSTRAP_GALLERY</title>
+     <!-- LINK FILES BOOTSTRAP -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- CSS Style -->
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Pacifico', cursive;
+         }
+         h1{
+          font-weight: 800;
+         }
+         p{
+          font-weight: 500;
+         }
+         .row{
+          display: flex;
+          flex-wrap: wrap;
+          width: 100%;
+          overflow: hidden;
+         }
+         .row .column{
+          display: flex;
+          width: auto;
+          overflow: hidden;
+          padding: 0 4px;
+          height: 100%;
+         }
+         .row .column img{
+          width: 100%;
+          height: auto;
+          margin: 2px;
+          filter: brightness(0.50);
+          transition: 0.5s ease filter;
+          transition-delay: 0.1s;
+          border: none;
+         }
+         .container{
+          margin-left: 65px;
+          overflow: hidden;
+         }
+         .jumbotron{
+          background: #243D25;
+          color: white;
+          background-image: linear-gradient(grey,#05595B);
+         }
+         .jumbotron p{
+          color: grey;
+         }
+         .container img:hover{
+          filter: brightness(100%);
+         }
+         h1{
+          /*text-shadow: 0 0 10px whitesmoke,0 0 30px whitesmoke;*/
+          font-weight: 200;
+         }
+    </style>  
+</head>
+<body>    
+    <div class="jumbotron text-center">
+          <h1 class="text-center">My Picture Gallery</h1>
+          <p class="text-center">By Using Bootstrap.......&#128525;<br>&#128151;</p>
+    </div>
+    <div class="container">
+         <div class="row">
+              <div class="column">
+                   <img src="21.jpg" class="thumbnail" style="width:900px;">
+                   <img src="22.jpg" class="thumbnail" >
+                   <img src="23.jpg" class="thumbnail" >
+                   <img src="24.jpg" class="thumbnail" >
+              </div>  <!-- style="width:400px; height: 600px;" -->
+              <div class="column">
+                   <img src="25.jpg" class="thumbnail" style="width:500px;">
+                   <img src="26.jpg" class="thumbnail" >
+                   <img src="27.jpg" class="thumbnail" >
+                   <img src="28.jpg" class="thumbnail" >
+              </div>
+              <div class="column">
+                   <img src="29.jpg" class="thumbnail" style="width:400px;">
+                   <img src="30.jpg" class="thumbnail" >
+                   <img src="31.jpg" class="thumbnail" >
+                   <img src="32.jpg" class="thumbnail" >
+              </div>
+              <div class="column">
+                   <img src="33.jpg" class="thumbnail" style="width:400px;">
+                   <img src="34.jpg" class="thumbnail" >
+                   <img src="35.jpg" class="thumbnail" >
+                   <img src="36.jpg" class="thumbnail" >
+              </div>
+         </div>
+    </div>
+</body>
+</html>
+
+
